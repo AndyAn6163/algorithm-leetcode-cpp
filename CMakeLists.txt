@@ -12,3 +12,5 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(fmt)
 
 add_executable(LC0001TwoSum array/LC0001TwoSum.cpp)
+add_executable(LC0039CombinationSum backtracking/LC0039CombinationSum.cpp)
+target_link_libraries(LC0039CombinationSum fmt::fmt)
